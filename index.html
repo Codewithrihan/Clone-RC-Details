@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Resume Making</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- partial:index.partial.html -->
+    <title>website for free</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script>
+
+    <h3 class="w3-xxlarge w3-center">Resume builder</h3>
+
+   
+      <table cellspacing="2" class="w3-large w3-padding"align="center" cellpadding="8" border="0">
+
+        <!--Front Side-->
+
+        <tr>
+          <td>Regn No</td>
+          <td><input type="text" id="fullname" placeholder="Enter your Name" /></td>
+        </tr>
+
+        <tr>
+          <td>Date of Regn</td>
+          <td><input type="text" id="dor" placeholder="Date of Regn" /></td>
+        </tr>
+
+        <tr>
+          <td>Regn. Validity</td>
+          <td><input type="text" class="dob" id="rv" placeholder="Regn. Validity" /></td>
+        </tr>
+
+        <tr>
+          <td>Owner Serial</td>
+          <td>
+            <select size="1"name="d1" id="os" class="ownerserial" >
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+          </select> </td>
+        </tr>
+
+        <tr>
+          <td>Chassis No.</td>
+          <td><input type="text" id="Chassis" placeholder="Chassis No."  /></td>
+        </tr>
+
+        <tr>
+          <td>Engine No.</td>
+          <td><input type="email" id="Engine" placeholder="Engine No." /></td>
+        </tr>
+
+        <tr>
+          <td>Owner</td>
+          <td><input type="text" class="add" id="Owner" placeholder="Owner Name"></td>
+        </tr>
+
+        <tr>
+          <td>Son/Wife/Daughter of<br> (In case of Individual Owner)</td>
+          <td><input type="text" class="add" id="swd" placeholder="Son/Wife/Daughter of" ></td>
+        </tr>
+
+        <tr>
+          <td>Ownership</td>
+          <td>
+            <select size="1"name="d1" id="Ownership" class="Ownership">
+            <option>Individual</option>
+            <option>Firm</option>
+          </select> </td>
+        </tr>
+
+        <tr>
+          <td>Address</td>
+          <td><input type="text" class="add" id="Address" placeholder="Address" ></td>
+        </tr>
+        
+        <tr>
+          <td>Address</td>
+          <td><input type="text" class="add" id="Address2" placeholder="Address2" ></td>
+        </tr>
+
+        <tr>
+          <td>Fuel</td>
+          <td>
+            <select size="1"name="d1" id="Fuel" class="option">
+            <option>CNG</option>
+            <option>Petrol</option>
+            <option>Diseal</option>
+            <option>ELECTRIC(BOV)</option>
+          </select> </td>
+        </tr>
+
+          <tr>
+            <td>Emission Norms</td>
+            <td><input type="text" class="add" id="Norms" placeholder="Emission Norms"></td>
+          </tr>
+          <tr><br><br><br>
+
+
+            <!--Back Side-->
+          <td><h3 class="back_side">Back Side</h3> </td>
+          <tr>
+            <td>Vehicle Class</td>
+            <td><input type="text" id="Vehicle_Class" placeholder="Vehicle Class" /></td>
+          </tr>
+
+          <tr>
+            <td>Regn. Number</td>
+            <td><input type="text" id="Regn_Number" placeholder="Regn. Number" /></td>
+          </tr>
+          
+          <tr>
+            <td>Maker's Name:</td>
+            <td><input type="text" id="Makers_Name" placeholder="Maker's Name:" /></td>
+          </tr>
+
+          <tr>
+            <td>Model Name:</td>
+            <td><input type="text" id="Model_Name" placeholder="Model Name:" /></td>
+          </tr>
+
+          <tr>
+            <td>Colour: </td>
+            <td><input type="text" id="Colour" placeholder="Colour: " /></td>
+          </tr>
+
+          <tr>
+            <td>Body Type:</td>
+            <td><input type="text" id="Body_Type" placeholder="Body Type:" /></td>
+          </tr>
+
+          <tr>
+            <td>Seating(in all) Capacity</td>
+            <td><input type="text" id="Seating" placeholder="Seating(in all) Capacity" /></td>
+          </tr>
+
+          <tr>
+            <td>Unladen Weight in(Kg)</td>
+            <td><input type="text" id="Unladen" placeholder="Unladen Weight (Kg)" /></td>
+          </tr>
+
+          <tr>
+            <td>Laden Weight in(Kg)</td>
+            <td><input type="text" id="Laden" placeholder="Laden Weight (Kg)" /></td>
+          </tr>
+
+          <tr>
+            <td>Cubic Cap.</td>
+            <td><input type="text" id="Cubic" placeholder="Cubic Cap." /></td>
+          </tr>
+
+          <tr>
+            <td> Horse Power</td>
+            <td><input type="text" id="Horse_Power" placeholder="Horse Power" /></td>
+          </tr>
+          
+          <tr>
+            <td>  Wheel Base</td>
+            <td><input type="text" id="Wheel_Base" placeholder=" Wheel Base" /></td>
+          </tr>
+
+          <tr>
+            <td>Month-Year of Mfg.</td>
+            <td><input type="text" id="mfg" placeholder="Month-Year of Mfg." /></td>
+          </tr>
+
+          <tr>
+            <td>No. of Cylinders</td>
+            <td><input type="text" id="Cylinders" placeholder="No. of Cylinders" /></td>
+          </tr>
+           
+          <tr>
+            <td>Financier</td>
+            <td><input type="text" id="fullname" placeholder="Financier" /></td>
+          </tr>
+
+          <tr>
+            <td>Registration Authority</td>
+            <td><input type="text" id="Authority" placeholder="Registration Authority" /></td>
+          </tr>
+    
+        </table>
+
+     <div class="button">
+      <input
+        type="submit"
+        class="w3-btn w3-green w3-round w3-ripple"
+        value="Download Registration Cirtificate"
+        onclick="download()"
+      />
+    </div>
+      <br />
+      <br />
+      
+      
+    <script src="app.js"></script>
+    <!-- partial -->
+  </body>
+</html>

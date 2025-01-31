@@ -1,0 +1,28 @@
+body {
+  align-items: left;
+  background-color: rgb(248, 244, 244);
+  text-align: left;
+}
+.qualifaction {
+  resize: none;
+}
+.add {
+  resize: none;
+}
+.option {
+  padding: 1px 45px;
+}
+.ownerserial {
+  padding: 1px 112px;
+}
+.Ownership{
+  padding: 1px 73px;
+}
+.button{
+  text-align: center;
+  align-items: center;
+}
+.back_side{
+  font-size: 40px;
+  
+}
