@@ -40,9 +40,9 @@ function addWaterMark(doc) {
     var image = new Image();
     var image2 = new Image()
     var image3 = new Image()
-    image.src = 'img/img-1.png';
-    image2.src = 'img/img-2.png';
-    image3.src = 'img/img-3.png';
+    image.src = 'img-1.png';
+    image2.src = 'img-2.png';
+    image3.src = 'img-3.png';
     for (i = 1; i <= totalPages; i++) {
       doc.setPage(i);
       doc.addImage(image, 'PNG', 10, 10, 190, 125);
